@@ -1,0 +1,38 @@
+* {
+    background-color: transparent;
+    
+}
+    
+#waybar {
+    background-color: rgba(30, 30, 30, 0.6); /* semi-transparent */
+    padding: 5px; /* optional */
+    margin: 5px;  /* optional */
+}
+
+
+#waybar {
+    background-color: rgba(30, 30, 30, 0.6);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+/* Power Profiles Default - transparent */
+#power-profiles-daemon {
+ background-color: transparent;
+    padding: 4px 4px;
+    border-radius: 8px;
+    min-width: 32px; /* or slightly larger depending on icon size */
+
+}
+
+/* Performance mode - red background */
+#power-profiles-daemon.performance {
+    background-color: rgba(255, 50, 50, 0.3);
+}
+
+/* Power saver mode - green background */
+#power-profiles-daemon.power-saver {
+    background-color: rgba(50, 255, 50, 0.3);
+}
+
